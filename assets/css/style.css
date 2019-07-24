@@ -1,0 +1,27 @@
+#header {
+    background-color: #ffffff;
+    height: 60px;
+}
+h1 {
+    background-color: #4aaaa5;
+    margin: 0%;
+    padding: 0%;
+    border: 0px;
+}
+
+body {
+    background-color: green;
+    margin: 0%;
+}
+
+nav {
+    float: right;
+}
+
+#about {
+    background-color: #ffffff;
+    width: 960px;
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
