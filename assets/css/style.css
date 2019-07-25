@@ -1,8 +1,12 @@
 #header {
     background-color: #ffffff;
     height: 60px;
+}
+
+#header, h1, h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
+
 h1 {
     background-color: #4aaaa5;
     margin: 0%;
@@ -23,15 +27,24 @@ body {
 nav {
     float: right;
     margin-top: -40px;
-    margin-right: 150px;
+    margin-right: 12%;
 }
 
-#link {
+a {
     margin-right: 20px;
     color: gray;
+    border-left: solid 1px;
+    padding-left: 6px;
+    text-decoration: none;
 }
 
-#about, #contact {
+a:hover {
+    color: #4aaaa5;
+    font-weight: bold;
+    border-left: solid 3px;
+}
+
+#about, #contact, #portfilio {
     background-color: #ffffff;
     width: 960px;
     margin: auto;
@@ -39,11 +52,8 @@ nav {
     margin-top: 100px;
 }
 
-#about h2 {
+h2 {
     border-bottom: solid;
     border-color: lightgray;
-}
-
-a:link {
-    text-decoration: none;
+    color: #4aaaa5;
 }
