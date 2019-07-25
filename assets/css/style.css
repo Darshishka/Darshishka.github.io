@@ -22,6 +22,7 @@ body {
     background-color: green;
     margin: 0%;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url(../images/retina_wood/retina_wood_@2X.png)
 }
 
 nav {
@@ -33,7 +34,7 @@ nav {
 a {
     margin-right: 20px;
     color: gray;
-    border-left: solid 1px;
+    border-left: solid 1px #cccccc;
     padding-left: 6px;
     text-decoration: none;
 }
@@ -50,10 +51,26 @@ a:hover {
     margin: auto;
     box-sizing: border-box;
     margin-top: 100px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 h2 {
     border-bottom: solid;
-    border-color: lightgray;
+    border-color: #dddddd;
     color: #4aaaa5;
+}
+
+img {
+    max-width: 20%;
+    height: auto;
+    float: left;
+    padding-right: 25px;
+}
+
+p {
+    padding-top: 12%;
+    color: #777777;
 }
