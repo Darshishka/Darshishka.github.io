@@ -97,7 +97,7 @@ p {
 
 .projectText {
     position: absolute;
-    top: 80%;
+    top: 65%;
     left: 50%;
     background-color: #4aaaa5;
     color: #ffffff;
@@ -112,4 +112,16 @@ p {
     position: relative;
     float: left;
     padding: 20px;
+}
+
+.link {
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+}
+
+.link:hover {
+    font-weight: bold;
+    border: none;
+    color: #ffffff;
 }
