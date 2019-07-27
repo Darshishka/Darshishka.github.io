@@ -55,6 +55,7 @@ a:hover {
     padding-left: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
+    min-height: 300px;
 }
 
 h2 {
@@ -73,4 +74,17 @@ img {
 p {
     padding-top: 12%;
     color: #777777;
+}
+
+#message {
+    width: 100%;
+}
+
+#footer {
+    background-color: #666666;
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    bottom: 0px;
+    border-top: outset #4aaaa5 5px;
 }
