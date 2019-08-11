@@ -2,41 +2,75 @@
 <html lang="en">
     <head>
         <title>Darcy Atlas</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <style>
+           body {
+                background-image: url(retina_wood/retina_wood.png);
+                font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+            }
+            h1, h2, a:hover {
+                font-weight: bold;
+            }
+            a, h1, h2, .projectText {
+                font-family: 'Georgia', Times, Times New Roman, serif;
+            }
+            #image {
+                width: 150px;
+                height: 150px;
+                padding: 1%;
+
+            }
+            #project {
+                object-fit: none;
+                height: 150px;
+                width: 150px;
+                overflow: hidden;
+            }
+            #link {
+                position: absolute;
+                bottom: 10%;
+                text-decoration: none;
+                width: 150px;
+            }
+            .footer {
+                position: absolute;
+                bottom: 0%;
+            }
+        </style>
     </head>
     <body>
-        <div id="header">
-            <h1 id="logo">Darcy Atlas</h1>
-            <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </div>
-        <div id="portfilio">
-            <h2>Portfolio</h2>
-            <div class="container">
-                <img class="project" src="assets/images/placeholder.jpg" alt="Project 1">
-                 <!-- Add link to project page-->
-                 <a href="#" class="link" alt="Project 1">
-                    <div class="projectText">Project 1</div>
-                 </a>
+        <nav class="navbar bg-light">
+            <h1 class="navbar-brand bg-info text-white p-3 text-center">Darcy Atlas</h1>
+            <div class="btn-group">
+                <a class="btn btn-light text-secondary" href="index.html">|  About</a>
+                <a class="btn btn-light text-secondary" href="portfolio.html">|  Portfolio</a>
+                <a class="btn btn-light text-secondary" href="contact.html">|  Contact</a>
             </div>
-            <div class="container">
-                    <img class="project" src="assets/images/placeholder2.jpg" alt="Project 2">
-                    <!-- Add link to project page-->
-                    <a href="#" class="link" alt="Project 2">
-                        <div class="projectText">Project 2</div>
-                    </a>
-            </div>
-            <div class="container">
-                    <img class="project" src="assets/images/placeholder3.jpg" alt="Project 3">
-                    <!-- Add link to project page-->
-                    <a href="#" class="link">
-                        <div class="projectText" alt="Project 3">Project 3</div>
-                    </a>
+        </nav>
+        <div class="container mt-5 mb-5">
+            <div id="portfolio" class="card row p-2">
+                <div class="col">
+                    <h2 class="text-info border-bottom">Portfolio</h2>
+                </div>
+                <div class="row">
+                    <div id="image" class="col text-center mb-4">
+                        <a id="link" href="#" class="bg-info text-white" alt="Project 1">Project 1</a>
+                        <img id="project" class="" src="placeholder.jpg" alt="Project 1">
+                    </div>
+                    <div id="image" class="col text-center mb-4">
+                        <a id="link" href="#" class="bg-info text-white" alt="Project 1">Project 2</a>
+                        <img id="project" class="" src="placeholder2.jpg" alt="Project 1">
+                    </div> 
+                    <div id="image" class="col text-center mb-4">
+                        <a id="link" href="#" class="bg-info text-white" alt="Project 1">Project 2</a>
+                        <img id="project" class="" src="placeholder3.jpg" alt="Project 1">
+                    </div>   
+                </div>
             </div>
         </div>
-        <div id="footer"></div>
+        <div class="container-fluid footer">
+            <div class="row bg-info p-1"></div>
+            <div class="row bg-dark p-3"></div>
+        </div>
     </body>
 </html>
