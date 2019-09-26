@@ -19,6 +19,7 @@
                 height: 150px;
                 padding: 1%;
             }
+
             #project {
                 object-fit: none;
                 height: 150px;
@@ -31,55 +32,82 @@
                 text-decoration: none;
                 width: 150px;
             }
+            #content {
+
+            }
             .footer {
-                position: absolute;
-                bottom: 0%;
+                position: inherit;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                text-align: center;
+            }
+            #social {
+                height: 27px;
+                width: 65px;
+            }
+            #contact {
+                color: dimgray;
+                font-size: 90%;
             }
         </style>
     </head>
     <body>
-        <nav class="navbar bg-light">
-            <h1 class="navbar-brand bg-info text-white p-3 text-center">Darcy Atlas</h1>
-            <div class="btn-group">
-                <a class="btn btn-light text-secondary" href="index.html">|  About</a>
-                <a class="btn btn-light text-secondary" href="portfolio.html">|  Portfolio</a>
-                <a class="btn btn-light text-secondary" href="contact.html">|  Contact</a>
-            </div>
-        </nav>
-        <div class="container mt-5 mb-5">
-            <div id="portfolio" class="card row p-2">
-                <div class="col">
-                    <h2 class="text-info border-bottom">Portfolio</h2>
+        <div id="content">
+            <nav class="navbar bg-light">
+                <h1 class="navbar-brand bg-info text-white p-3 text-center">Darcy Atlas</h1>
+                <div class="btn-group">
+                    <a class="btn btn-light text-secondary" href="index.html">|  About</a>
+                    <a class="btn btn-light text-secondary" href="portfolio.html">|  Portfolio</a>
+                    <a class="btn btn-light text-secondary" href="contact.html">|  Contact</a>
                 </div>
-                <div class="row">
-                    <div id="image" class="col text-center mb-4">
-                        <a id="link" href="https://darshishka.github.io/Word-Guess-Game/" target="_blank" class="bg-info text-white" alt="Who's That Pokemon Hangman Game">Who's That Pokemon?</a>
-                        <img id="project" class="" src="whos-that-pokemon.png" alt="Who's That Pokemon Hangman Game">
+            </nav>
+            <div class="container mt-5 mb-5">
+                <div id="portfolio" class="card row p-2">
+                    <div class="col">
+                        <h2 class="text-info border-bottom">Portfolio</h2>
                     </div>
-                    <div id="image" class="col text-center mb-4">
-                        <a id="link" href="https://darshishka.github.io/unit-4-game/" target="_blank" class="bg-info text-white" alt="Crystal Collector">Crystal Collector</a>
-                        <img id="project" class="" src="gems.jpg" alt="Crystal Collector">
-                    </div> 
-                    <div id="image" class="col text-center mb-4">
-                        <a id="link" href="https://darshishka.github.io/TriviaGame/" target="_blank" class="bg-info text-white" alt="Trivia Game">Trivia Game</a>
-                        <img id="project" class="" src="trivia.jpg" alt="Trivia Game">
-                    </div> 
-                    <div id="image" class="col text-center mb-4">
+                    <div class="row">
+                        <div id="image" class="col text-center mb-4">
+                            <a id="link" href="https://darshishka.github.io/Word-Guess-Game/" target="_blank" class="bg-info text-white" alt="Who's That Pokemon Hangman Game">Who's That Pokemon?</a>
+                            <img id="project" class="" src="whos-that-pokemon.png" alt="Who's That Pokemon Hangman Game">
+                        </div>
+                        <div id="image" class="col text-center mb-4">
+                            <a id="link" href="https://darshishka.github.io/unit-4-game/" target="_blank" class="bg-info text-white" alt="Crystal Collector">Crystal Collector</a>
+                            <img id="project" class="" src="gems.jpg" alt="Crystal Collector">
+                        </div> 
+                        <div id="image" class="col text-center mb-4">
+                            <a id="link" href="https://darshishka.github.io/TriviaGame/" target="_blank" class="bg-info text-white" alt="Trivia Game">Trivia Game</a>
+                            <img id="project" class="" src="trivia.jpg" alt="Trivia Game">
+                        </div>  
+                    </div>
+                    <div class="row">
+                        <div id="image" class="col text-center mb-4">
                             <a id="link" href="https://darshishka.github.io/GifTastic/" target="_blank" class="bg-info text-white" alt="GifTastic">GifTastic</a>
                             <img id="project" class="" src="giftastic.png" alt="GifTastic">
-                    </div> 
-                </div>
-                <div class="row">
-                    <div id="image" class="col text-center mb-4">
-                        <a id="link" href="https://darshishka.github.io/TrainScheduler/" target="_blank" class="bg-info text-white" alt="Train Scheduler">Train Scheduler</a>
-                        <img id="project" class="" src="train.jpg" alt="Trian Scheduler">
+                        </div>
+                        <div id="image" class="col text-center mb-4">
+                            <a id="link" href="https://darshishka.github.io/TrainScheduler/" target="_blank" class="bg-info text-white" alt="Train Scheduler">Train Scheduler</a>
+                            <img id="project" class="" src="train.jpg" alt="Trian Scheduler">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container-fluid footer">
+        <div class="container-fluid footer mt-1">
             <div class="row bg-info p-1"></div>
-            <div class="row bg-dark p-3"></div>
+            <div class="row bg-dark p-3">
+                <div class="col">
+                    <a href="https://github.com/Darshishka" target="_blank">
+                        <img id="social" src="GitHub-Logos\GitHub_Logo_White.png">
+                    </a>
+                    <a href="https://www.linkedin.com/in/darcy-atlas-88b973187/" target="_blank">
+                        <img id="social" src="LinkedIn-Logos/LI-Logo.png">
+                    </a>
+                    <p id="contact" class="m-0">Phone: (206)-849-6772</p>
+                    <p id="contact" class="m-0">Email: foreverdiffrent@live.com</p>
+                </div>
+            </div>
         </div>
     </body>
 </html>

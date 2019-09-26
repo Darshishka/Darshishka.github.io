@@ -14,6 +14,21 @@
             a, h1, h2, .projectText {
                 font-family: 'Georgia', Times, Times New Roman, serif;
             }
+            .footer {
+                position: inherit;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                text-align: center;
+            }
+            #social {
+                height: 27px;
+                width: 65px;
+            }
+            #contact {
+                color: dimgray;
+                font-size: 90%;
+            }
         </style>
     </head>
     <body>
@@ -26,7 +41,7 @@
             </div>
         </nav>
         <div class="container mt-5 mb-5">
-            <div id="contact" class="card row p-2">
+            <div id="altContact" class="card row p-2">
                 <div class="col">
                     <h2 class="text-info border-bottom">Contact</h2>
                 </div>
@@ -49,9 +64,21 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid mt-5">
+        <div class="gap row"></div>
+        <div class="footer container-fluid mt-1">
             <div class="row bg-info p-1"></div>
-            <div class="row bg-dark p-3"></div>
+            <div class="row bg-dark p-3">
+                <div class="col">
+                    <a href="https://github.com/Darshishka" target="_blank">
+                        <img id="social" src="GitHub-Logos\GitHub_Logo_White.png">
+                    </a>
+                    <a href="https://www.linkedin.com/in/darcy-atlas-88b973187/" target="_blank">
+                        <img id="social" src="LinkedIn-Logos/LI-Logo.png">
+                    </a>
+                    <p id="contact" class="m-0">Phone: (206)-849-6772</p>
+                    <p id="contact" class="m-0">Email: foreverdiffrent@live.com</p>
+                </div>
+            </div>
          </div>
     </body>
 </html>
